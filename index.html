@@ -8,13 +8,13 @@
     <body>
         <nav>
             <div>
-                <button id=navbar-toggler><i class="fas fa-bars fa-lg" style="color: #e6f3ff;"></i></button>
-                <ul id=navbar>
-                    <li class=nav-item><a class=nav-link href=#profile>個人簡介</a></li>
-                    <li class=nav-item><a class=nav-link href=#writing>相關著作</a></li>
-                    <li class=nav-item><a class=nav-link href=#performance>教學、服務績效</a></li>
-                    <li class=nav-item><a class=nav-link href=#awards>比賽獲獎</a></li>
-                    <li class=nav-item><a class=nav-link href=#certification>獲得證照</a></li>
+                <button id=navbar-toggler  onclick="areaExpand()"><i class="fas fa-bars fa-lg" style="color:#e6f3ff;"></i></button>
+                <ul id=navbar class="">
+                    <li class=nav-item><a class=nav-link href=#profile onclick=areaExpand()>個人簡介</a></li>
+                    <li class=nav-item><a class=nav-link href=#writing onclick=areaExpand()>相關著作</a></li>
+                    <li class=nav-item><a class=nav-link href=#performance onclick=areaExpand()>教學、服務績效</a></li>
+                    <li class=nav-item><a class=nav-link href=#awards onclick=areaExpand()>比賽獲獎</a></li>
+                    <li class=nav-item><a class=nav-link href=#certification onclick=areaExpand()>獲得證照</a></li>
                 </ul>
             </div>
         </nav>
@@ -192,8 +192,9 @@
                     <li>86年縣級籃球裁判講習。(86/05)</li>
                     <li>台灣省國中體育科教師民俗體育研習。(86/01)</li>
                 </ul>
-
             </section>
         </main>
+        
+        <script src="scripts/main.js"></script>
     </body>
 </html>
