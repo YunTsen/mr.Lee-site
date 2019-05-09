@@ -41,6 +41,8 @@ main{
     margin-left: 330px;
 }
 section{
+    display: flex;
+    flex-direction: column;
     padding: 30px;
 }
 #profile{
@@ -107,5 +109,10 @@ td{
     main{
         margin:auto;
     }
-   
+    #pic-mrLee{
+        display: none;
+    }
+   #profile-table,#profile-table i{
+        font-size:medium;
+    }
 }
